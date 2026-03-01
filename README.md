@@ -119,3 +119,10 @@ python Agent.py
 - Do not commit `.env` to source control
 - Rotate credentials immediately if exposed
 - Use a dedicated sender mailbox for automation
+
+
+----------
+
+pip install -r requirements.txt
+
+uvicorn app:app --reload   
